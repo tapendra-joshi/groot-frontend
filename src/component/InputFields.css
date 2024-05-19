@@ -1,0 +1,29 @@
+
+
+.inputClassName {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.inputClassName > label {
+    font-size: 20px;
+
+}
+
+.inputClassName > input {
+    padding: 0px 10px;
+    height:44px;
+    margin-top:10px;
+    font-size: 16px;
+        width:100%;
+        outline: none;
+        border-radius: 6px;
+}
+
+
+.inputClassName > input::placeholder {
+    color:grey
+}
