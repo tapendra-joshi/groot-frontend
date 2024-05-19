@@ -10,6 +10,8 @@ Frontend application for https://github.com/tapendra-joshi/groot-backend .
 ## Installation
 Clone application from https://github.com/tapendra-joshi/groot-frontend.git and checkout to master branch .
 
+Create a .env file having host url for backend server as following key-value.
+`REACT_APP_BACKEND_HOST_URL=http://localhost:8001`
 ## Available Scripts
 
 In the project directory, you can run:
